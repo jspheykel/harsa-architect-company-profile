@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="/static/css/contact.css" />
+	<link rel="stylesheet"  href="/static/css/global.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Trap:wght@700&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus Jakarta Sans:wght@600&display=swap" />
+  	
+  	
+  	
+</head>
+<body>
+  	
+  	<div class="contact">
+    		<div class="wrapper">
+      			<div class="header">
+        				<img class="logo-harsa-1" alt="" src="/static/assets/images/logoHarsa.png">
+        				
+						<nav class="menu-bar">
+						<a href="/templates/home.html" class="menu-link">Home</a>
+						<a href="/templates/about.html" class="menu-link">About</a>
+						<a href="/templates/services.html" class="menu-link">Services</a>
+						<a href="/templates/portofolio.html" class="menu-link">Portfolio</a>
+						<a href="/" class="menu-link active">Contact</a>
+						<a href="/templates/cost_estimator.html" class="menu-link">Cost Estimator</a>
+						</nav>
+      			</div>
+      			<div class="body">
+        				<div class="contact-us">
+          					<div class="full-name">Contact Us</div>
+          					<img class="adu-petaluma-1-icon" alt="" src="/static/assets/images/contact/adu-petaluma.jpeg">
+          					
+        				</div>
+        				<div class="form-caption">
+          					<div class="caption">
+            						<div class="lorem-ipsum-dolor">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+          					</div>
+
+								<div class="submit-form">
+								<div class="submit-form-title">Submit Form</div>
+								<form class="form" action="/submit-form" method="POST">
+									<div class="text-input">
+									<label for="fullName" class="full-name">Full Name *</label>
+									<input type="text" id="fullName" name="fullName" class="form-input" required />
+									</div>
+
+									<div class="text-input">
+									<label for="email" class="full-name">Email *</label>
+									<input
+										type="email"
+										id="email"
+										name="email"
+										class="form-input"
+										required
+										pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+										title="Please enter a valid email address"
+									/>
+									</div>
+
+									<div class="text-input">
+									<label for="phone" class="full-name">Phone Number *</label>
+									<input type="tel" id="phone" name="phone" class="form-input" required />
+									</div>
+
+									<div class="text-input">
+									<label for="subject" class="full-name">Subject Message *</label>
+									<input type="text" id="subject" name="subject" class="form-input" required />
+									</div>
+
+									<div class="text-area">
+									<label for="message" class="full-name">Messages *</label>
+									<textarea id="message" name="message" class="form-input" rows="5" required></textarea>
+									</div>
+
+									<div class="send-messages-wrapper">
+									<button type="submit" class="send-button full-name">Send Messages</button>
+									</div>
+								</form>
+								</div>
+        				</div>
+      			</div>
+      			<div class="footer">
+        				<div class="footers-background">
+          					<div class="container">
+            						<div class="details">
+              							<div class="email1">
+                								<div class="addres">Email</div>
+                								<div class="harsarchitectsgmailcom">harsarchitects@gmail.com</div>
+              							</div>
+              							<div class="phone-number1">
+                								<div class="addres">Phone Number</div>
+                								<div class="harsarchitectsgmailcom">+59 82185672355</div>
+              							</div>
+              							<div class="contact1">
+                								<div class="addres">Addres</div>
+                								<div class="anywhere-st-chicago">123 Anywhere St Chicago, 452 Somewhere St New York</div>
+              							</div>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+    		</div>
+  	</div>
+</body>
+<script src='/static/js/contact.js'></script>
+</html>

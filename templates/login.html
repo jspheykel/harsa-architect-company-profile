@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <link rel="stylesheet" href="/static/css/login.css" />
+  <link rel="stylesheet" href="/static/css/global.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet" />
+  <title>Login</title>
+</head>
+<body>
+  <div class="login">
+    <img class="picture-side" alt="Side visual" src="/static/assets/images/portofolio/arlington-project-exterior.jpeg" />
+
+    <form class="sign-in-form" action="/login" method="POST">
+    <div class="title-and-subtitle">
+        <div class="welcome-back">Welcome back!</div>
+        <div class="enter-your-credentials">Enter your Credentials to access your account</div>
+    </div>
+
+    <div class="form-tc">
+        <div class="form">
+        <div class="nametextarea">
+            <label for="email" class="email-address">Email address</label>
+            <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            class="form-input"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            title="Please enter a valid email address"
+            />
+        </div>
+
+        <div class="nametextarea">
+            <label for="password" class="email-address">Password</label>
+            <input
+            type="password"
+            id="password"
+            name="password"
+            required
+            class="form-input"
+            pattern=".{6,}"
+            title="Password must be at least 6 characters long"
+            />
+        </div>
+        </div>
+    </div>
+
+    <button type="submit" class="button-sign-in">
+        <b class="sign-in">Login</b>
+    </button>
+
+        <div class="sign-up-navigate">
+            <div class="sign-up">Don’t have an account?</div>
+            <a href="/templates/register.html" class="sign-up-button">Sign up</a>
+        </div>
+    </form>
+    
+  </div>
+  <script src="/static/js/login.js" defer></script>
+</body>
+</html>
