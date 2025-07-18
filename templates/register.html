@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="/static/css/register.css" />
+    <link rel="stylesheet" href="/static/css/global.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Plus Jakarta Sans:wght@500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="signup">
+      <img
+        class="picture-side"
+        alt=""
+        src="/static/assets/images/portofolio/oregon-project-interior.jpeg"
+      />
+
+      <form class="sign-up-form" action="/register" method="POST">
+        <div class="get-started-now">Get Started Now</div>
+        <div class="form-tc">
+          <div class="form">
+            <div class="nametextarea">
+              <label for="name" class="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                class="form-input"
+                pattern="^[a-zA-Z\s]+$"
+                title="Name should only contain letters and spaces."
+              />
+            </div>
+
+            <div class="nametextarea">
+              <label for="email" class="name">Email address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                class="form-input"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                title="Please enter a valid email address."
+              />
+            </div>
+
+            <div class="nametextarea">
+              <label for="password" class="name">Password</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                required
+                class="form-input"
+                pattern=".{6,}"
+                title="Password must be at least 6 characters long."
+              />
+            </div>
+
+            <div class="nametextarea">
+              <label for="confirmPassword" class="name">Confirm Password</label>
+              <input
+                type="password"
+                id="confirmPassword"
+                name="confirmPassword"
+                required
+                class="form-input"
+                title="Please confirm your password."
+              />
+            </div>
+          </div>
+
+          <div class="tc-approval">
+            <input type="checkbox" id="agree" required />
+            <label for="agree" class="i-agree-to-container">
+              I agree to the <span class="terms-policy">terms & policy</span>
+            </label>
+          </div>
+        </div>
+
+        <button type="submit" class="button-sign-up" disabled>
+          <b class="sign-up">Signup</b>
+        </button>
+
+        <div class="login-navigate">
+          <div class="login">Already have an account?</div>
+          <a href="/templates/login.html" class="sign-in">Sign In</a>
+        </div>
+      </form>
+
+    </div>
+    <script src="/static/js/register.js" defer></script>
+  </body>
+</html>

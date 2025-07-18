@@ -1,0 +1,475 @@
+.harsarchitectsgmailcom {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 16px;
+  	font-weight: 600;
+  	color: #302f2a;
+}
+.email {
+  	width: 209px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 6px;
+}
+.phone-number {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 6px;
+}
+.addres {
+  	align-self: stretch;
+  	position: relative;
+  	font-weight: 600;
+}
+.anywhere-st-chicago {
+  	width: 266px;
+  	position: relative;
+  	font-size: 16px;
+  	font-weight: 600;
+  	color: #302f2a;
+  	display: inline-block;
+}
+.contact {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 6px;
+}
+.details {
+  	width: 266px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 30px;
+}
+.container {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+  	justify-content: center;
+  	padding: 164px 27px 0px 0px;
+}
+.footers-background {
+  	align-self: stretch;
+  	height: 458px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	background-image: url('/static/assets//images/FooterBackground.png');
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: top;
+}
+.footer {
+  	position: absolute;
+  	bottom: 0px;
+  	left: 0px;
+  	background-color: #f8f9f4;
+  	width: 1440px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+}
+.karsten-winegeart-jlqufsnjcca-icon {
+  	width: 550px;
+  	position: relative;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+.about-harsa {
+  	width: 368px;
+  	flex: 1;
+  	position: relative;
+  	letter-spacing: -0.01em;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.harsa-is-a {
+  	align-self: stretch;
+  	position: relative;
+  	letter-spacing: -0.01em;
+  	font-weight: 600;
+}
+.our-modular-design {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 16px;
+  	letter-spacing: -0.01em;
+  	font-weight: 500;
+}
+.harsa-is-a-team-of-architects-parent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 0px 98px 0px 173px;
+  	gap: 12px;
+  	font-size: 30px;
+  	color: #aeaa97;
+}
+.section01 {
+  	width: 655px;
+  	height: 410px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 42px;
+}
+.container01 {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 91px;
+}
+.why-choose-harsa {
+  	width: 250px;
+  	position: relative;
+  	letter-spacing: -0.01em;
+  	font-weight: 600;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.title {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+}
+.point {
+  	width: 18px;
+  	position: relative;
+  	border-radius: 50%;
+  	background-color: #aeaa97;
+  	height: 18px;
+}
+.inovative-designs {
+  	position: relative;
+  	letter-spacing: -0.01em;
+  	font-weight: 500;
+}
+.points {
+  	height: 60px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 30px;
+}
+.lorem-ipsum-dolor {
+  	width: 403px;
+  	position: relative;
+  	letter-spacing: -0.01em;
+  	font-weight: 500;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.lorem-ipsum-dolor-sit-amet-co-wrapper {
+  	height: 100px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 0px 0px 0px 52px;
+  	box-sizing: border-box;
+  	font-size: 16px;
+}
+.points-parent {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 18px;
+}
+.alexander-lunyov-ak6ikszoss0-u-icon {
+  	width: 193px;
+  	position: relative;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+.points-harsa {
+  	align-self: stretch;
+  	border-bottom: 1.5px solid #aeaa97;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 24px 0px;
+  	gap: 36px;
+  	color: #302f2a;
+}
+.points1 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 30px;
+}
+.points-harsa1 {
+  	align-self: stretch;
+  	border-bottom: 1.5px solid #aeaa97;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 12px 0px;
+}
+.menus {
+  	width: 832px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 42px;
+  	font-size: 48px;
+  	color: #aeaa97;
+}
+.content {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: space-between;
+  	gap: 0px;
+}
+.container02 {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+}
+.b {
+  	align-self: stretch;
+  	position: relative;
+  	letter-spacing: -0.01em;
+}
+.years-of-experience {
+  	position: relative;
+  	font-size: 16px;
+  	letter-spacing: -0.01em;
+  	font-weight: 500;
+  	color: #aeaa97;
+}
+.awards {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 16px;
+  	letter-spacing: -0.01em;
+  	font-weight: 500;
+  	color: #aeaa97;
+}
+.indicator01 {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	gap: 12px;
+}
+.creatopy-pyl-no-0zje-unsplash-icon {
+  	width: 869px;
+  	position: relative;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+.section011 {
+  	width: 1308px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 0px 0px 60px;
+  	box-sizing: border-box;
+  	gap: 0px;
+}
+.indicator011 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+  	justify-content: center;
+  	gap: 12px;
+}
+.section02 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 0px 60px;
+}
+.content1 {
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 60px;
+}
+.picture-icon {
+  	align-self: stretch;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 407px;
+  	flex-shrink: 0;
+  	object-fit: cover;
+}
+.principal-architect {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 16px;
+  	letter-spacing: -0.01em;
+  	font-weight: 600;
+  	color: #aeaa97;
+}
+.profile-card {
+  	width: 305px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 18px;
+}
+.our-team {
+  	position: relative;
+  	font-size: 66px;
+  	letter-spacing: -0.01em;
+  	font-weight: 600;
+}
+.container-parent {
+  	align-self: stretch;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	flex-wrap: wrap;
+  	align-content: flex-start;
+  	gap: 50px 377px;
+  	font-size: 30px;
+}
+.body {
+  	position: absolute;
+  	top: 144px;
+  	left: 0px;
+  	width: 1440px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 36px 66px;
+  	box-sizing: border-box;
+  	gap: 102px;
+  	font-size: 66px;
+  	color: #302f2a;
+}
+.logo-harsa-1 {
+  	width: 115px;
+  	position: relative;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+.home {
+  	position: relative;
+  	letter-spacing: -0.01em;
+}
+.home1 {
+  	position: absolute;
+  	top: 0%;
+  	left: 0%;
+  	letter-spacing: -0.01em;
+}
+.menu-text1 {
+  	width: 47px;
+  	position: relative;
+  	height: 18px;
+  	color: #302f2a;
+}
+/* Container for menu items */
+.menu-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+/* Menu link base style */
+.menu-link {
+  text-decoration: none;
+  color: #aeaa97;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  position: relative;
+}
+.menu-link:not(:last-child)::after {
+  content: "/";
+  margin: 0 24px;
+  color: #aeaa97;
+}
+/* Hover style */
+.menu-link:hover {
+  color: #302f2a;
+}
+/* Active/current page style */
+.menu-link.active {
+  color: #302f2a;
+  font-weight: 700;
+}
+.header {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	backdrop-filter: blur(10px);
+  	background-color: rgba(248, 249, 244, 0.5);
+  	width: 1440px;
+  	height: 144px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 66px;
+  	box-sizing: border-box;
+  	gap: 0px;
+  	font-size: 16px;
+  	font-family: Trap;
+}
+.about-us {
+  	width: 100%;
+  	position: relative;
+  	background-color: #f8f9f4;
+  	height: 3998px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 12px;
+  	color: #aeaa97;
+  	font-family: 'Plus Jakarta Sans';
+}
+

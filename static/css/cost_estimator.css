@@ -1,0 +1,260 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #f8f9f4;
+  color: #302f2a;
+}
+
+.cost-estimator-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	backdrop-filter: blur(10px);
+  	background-color: rgba(248, 249, 244, 0.5);
+  	width: 1440px;
+  	height: 144px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 66px;
+  	box-sizing: border-box;
+  	gap: 0px;
+  	font-size: 16px;
+  	font-family: Trap;
+}
+
+.logo {
+  	width: 115px;
+  	position: relative;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+
+/* Container for menu items */
+.menu-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.menu-bar-ofw {
+	width: 100%;
+	position: relative;
+	border-bottom: 1px solid #aeaa97;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 0px 0px 12px;
+	gap: 60px;
+	text-align: left;
+	font-size: 24px;
+	color: #aeaa97;
+}
+
+/* Menu link base style */
+.menu-link {
+  text-decoration: none;
+  color: #aeaa97;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  position: relative;
+}
+.menu-link:not(:last-child)::after {
+  content: "/";
+  margin: 0 24px;
+  color: #aeaa97;
+}
+/* Hover style */
+.menu-link:hover {
+  color: #302f2a;
+}
+/* Active/current page style */
+.menu-link.active {
+  color: #302f2a;
+  font-weight: 700;
+}
+
+/* Main Section */
+.estimator-form-wrapper {
+  flex: 1;
+  max-width: 680px;
+  margin: 120px auto 80px;
+  padding: 0 20px;
+}
+
+.page-title {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 48px;
+  color: #302f2a;
+  text-align: center;
+}
+
+.estimator-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 16px;
+}
+
+.estimator-form label {
+  font-weight: 600;
+  color: #302f2a;
+}
+
+.estimator-form input,
+.estimator-form select {
+  padding: 14px 16px;
+  font-size: 16px;
+  border: 1.5px solid #aeaa97;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #302f2a;
+  transition: border-color 0.3s ease;
+}
+
+.estimator-form input:focus,
+.estimator-form select:focus {
+  outline: none;
+  border-color: #302f2a;
+}
+
+/* Button */
+.estimate-button {
+  background-color: #302f2a;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.estimate-button:hover {
+  background-color: #444;
+}
+
+/* Result Box */
+.result-box {
+  margin-top: 40px;
+  background-color: #ffffff;
+  border-left: 4px solid #302f2a;
+  padding: 24px;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(48, 47, 42, 0.08);
+}
+
+.result-box h3 {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #302f2a;
+}
+
+.result-box p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #555;
+  margin: 12px 0 0;
+}
+
+.footers-background {
+  	align-self: stretch;
+  	height: 458px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	background-image: url('/static/assets/images/FooterBackground.png');
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: top;
+}
+.footer {
+  	position: absolute;
+  	bottom: -800px;
+  	left: 0px;
+  	background-color: #f8f9f4;
+  	width: 1440px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	font-size: 12px;
+}
+.harsarchitectsgmailcom {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 16px;
+  	font-weight: 600;
+  	color: #302f2a;
+}
+.email {
+  	width: 209px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 6px;
+}
+.phone-number {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 6px;
+}
+.addres {
+  	align-self: stretch;
+  	position: relative;
+  	font-weight: 600;
+}
+.anywhere-st-chicago {
+  	width: 266px;
+  	position: relative;
+  	font-size: 16px;
+  	font-weight: 600;
+  	color: #302f2a;
+  	display: inline-block;
+}
+.contact {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 6px;
+}
+.details {
+  	width: 266px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 30px;
+}
+.container1 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+  	justify-content: center;
+  	padding: 164px 27px 0px 0px;
+}
