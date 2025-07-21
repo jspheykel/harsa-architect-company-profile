@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-    <link rel="stylesheet" href="static/css/home.css" />
-    <link rel="stylesheet" href="static/css/global.css" />
+    <link rel="stylesheet" href="/static/css/home.css" />
+    <link rel="stylesheet" href="/static/css/global.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Plus Jakarta Sans:wght@500;600;700&display=swap"
@@ -30,7 +30,7 @@
               <img
                 class="floris-bronkhorst-olfa5dgsifo-icon"
                 alt=""
-                src="static/assets/images/floris-bronkhorst-OLFA5DgSIFo-unsplash.jpg"
+                src="/static/assets/images/floris-bronkhorst-OLFA5DgSIFo-unsplash.jpg"
               />
             </div>
             <div class="section02">
@@ -45,7 +45,7 @@
               <img
                 class="josh-olalde-x1p1-ednnok-unspla-icon"
                 alt=""
-                src="static/assets/images/josh-olalde-X1P1_EDNnok-unsplash.jpg"
+                src="/static/assets/images/josh-olalde-X1P1_EDNnok-unsplash.jpg"
               />
             </div>
           </div>
@@ -61,7 +61,7 @@
                     Architectural Design
                     <img
                       class="arrow-icon"
-                      src="static/assets/icons/carbon_next-outline.svg"
+                      src="/static/assets/icons/carbon_next-outline.svg"
                       alt="arrow"
                     />
                   </div>
@@ -72,7 +72,7 @@
                     Interior Design
                     <img
                       class="arrow-icon"
-                      src="static/assets/icons/carbon_next-outline.svg"
+                      src="/static/assets/icons/carbon_next-outline.svg"
                       alt="arrow"
                     />
                   </div>
@@ -83,7 +83,7 @@
                     Project Management
                     <img
                       class="arrow-icon"
-                      src="static/assets/icons/carbon_next-outline.svg"
+                      src="/static/assets/icons/carbon_next-outline.svg"
                       alt="arrow"
                     />
                   </div>
@@ -94,7 +94,7 @@
                     Landscape Design
                     <img
                       class="arrow-icon"
-                      src="static/assets/icons/carbon_next-outline.svg"
+                      src="/static/assets/icons/carbon_next-outline.svg"
                       alt="arrow"
                     />
                   </div>
@@ -105,7 +105,7 @@
                     Furniture Design
                     <img
                       class="arrow-icon"
-                      src="static/assets/icons/carbon_next-outline.svg"
+                      src="/static/assets/icons/carbon_next-outline.svg"
                       alt="arrow"
                     />
                   </div>
@@ -115,7 +115,7 @@
             <img
               class="karsten-winegeart-xuyowycjj-i-icon"
               alt=""
-              src="static/assets/images/karsten-winegeart-xUyOWyCjJ_I-unsplash.jpg"
+              src="/static/assets/images/karsten-winegeart-xUyOWyCjJ_I-unsplash.jpg"
             />
           </div>
         </div>
@@ -137,12 +137,12 @@
                   <img
                     class="carbonnext-outline-icon1"
                     alt=""
-                    src="static/assets/icons/carbon_next-outline.svg"
+                    src="/static/assets/icons/carbon_next-outline.svg"
                   />
                   <img
                     class="carbonnext-outline-icon2"
                     alt=""
-                    src="static/assets/icons/carbon_next-outline.svg"
+                    src="/static/assets/icons/carbon_next-outline.svg"
                   />
                 </div>
               </div>
@@ -150,7 +150,7 @@
                 <div class="featured-card">
                   <img
                     class="featured-work-image"
-                    src="static/assets/images/alexander-andrews-A3DPhhAL6Zg-unsplash.jpg"
+                    src="/static/assets/images/alexander-andrews-A3DPhhAL6Zg-unsplash.jpg"
                     alt="Architect Project"
                   />
                   <div class="card-overlay">
@@ -163,7 +163,7 @@
                 <div class="featured-card">
                   <img
                     class="featured-work-image"
-                    src="static/assets/images/caldwell-project-interior.jpeg"
+                    src="/static/assets/images/caldwell-project-interior.jpeg"
                     alt="Architect Project"
                   />
                   <div class="card-overlay">
@@ -176,7 +176,7 @@
                 <div class="featured-card">
                   <img
                     class="featured-work-image"
-                    src="static/assets/images/bilal-mansuri-bYIkdzFBW_I-unsplash.jpg"
+                    src="/static/assets/images/bilal-mansuri-bYIkdzFBW_I-unsplash.jpg"
                     alt="Architect Project"
                   />
                   <div class="card-overlay">
@@ -210,7 +210,7 @@
               <img
                 class="creatopy-pyl-no-0zje-unsplash-icon"
                 alt=""
-                src="static/assets/images/creatopy-PYL_nO-0ZjE-unsplash.jpg"
+                src="/static/assets/images/creatopy-PYL_nO-0ZjE-unsplash.jpg"
               />
             </div>
             <div class="section021">
@@ -252,7 +252,7 @@
               <img
                 class="responses-1-icon"
                 alt=""
-                src="static/assets/images/Responses.png"
+                src="/static/assets/images/Responses.png"
               />
             </div>
             <div class="container-buttons">
@@ -277,17 +277,17 @@
         <img
           class="logo-harsa-1"
           alt=""
-          src="static/assets/images/logoHarsa.png"
+          src="/static/assets/images/logoHarsa.png"
         />
 
         <nav class="menu-bar">
           <a href="/" class="menu-link active">Home</a>
-          <a href="about.html" class="menu-link">About</a>
-          <a href="services.html" class="menu-link">Services</a>
-          <a href="portofolio.html" class="menu-link">Portfolio</a>
-          <a href="contact.html" class="menu-link">Contact</a>
-          <a href="cost_estimator.html" class="menu-link">Cost Estimator</a>
-          <a href="login.html" class="menu-link">Login</a>
+          <a href="{{ url_for('about') }}" class="menu-link">About</a>
+          <a href="{{ url_for('services') }}" class="menu-link">Services</a>
+          <a href="{{ url_for('portofolio') }}" class="menu-link">Portfolio</a>
+          <a href="{{ url_for('contact') }}" class="menu-link">Contact</a>
+          <a href="{{ url_for('cost_estimator') }}" class="menu-link">Cost Estimator</a>
+          <a href="{{ url_for('login') }}" class="menu-link">Login</a>
         </nav>
       </div>
       <div class="footer">
